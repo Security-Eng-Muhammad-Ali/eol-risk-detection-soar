@@ -1,0 +1,4 @@
+{
+  "001": {"internet_facing": false, "criticality": "medium"},
+  "002": {"internet_facing": false, "criticality": "medium"}
+}

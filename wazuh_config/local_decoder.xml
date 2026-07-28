@@ -1,0 +1,18 @@
+<!--
+  Custom decoder reference for EOL Risk findings.
+
+  NOTE: In practice, setting <log_format>json</log_format> on the
+  <localfile> block in ossec.conf causes Wazuh to use its built-in
+  JSON decoder automatically. This custom decoder is kept here for
+  documentation purposes, but local_rules.xml references the
+  built-in "json" decoder (see decoded_as tags).
+-->
+
+<decoder name="eol-risk-json">
+    <prematch>"risk_level"</prematch>
+</decoder>
+
+<decoder name="eol-risk-json-fields">
+    <parent>eol-risk-json</parent>
+    <plugin_decoder>JSON_Decoder</plugin_decoder>
+</decoder>

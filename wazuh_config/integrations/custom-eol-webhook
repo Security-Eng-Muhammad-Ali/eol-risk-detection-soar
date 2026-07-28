@@ -1,0 +1,2 @@
+#!/bin/sh
+python3 /var/ossec/integrations/custom-eol-webhook.py "$1" "$2" "$3"
