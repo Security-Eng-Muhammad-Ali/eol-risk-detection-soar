@@ -185,4 +185,4 @@ This project involved real debugging that mirrors production detection engineeri
 
 **Muhammad Ali**
 Junior SOC Engineer | Detection Engineering & AI-Assisted SOC Enthusiast
-Lahore, Pakistan
+
